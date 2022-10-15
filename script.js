@@ -36,6 +36,7 @@ scrollElements.forEach((link) =>
 console.log(btnShowProjects);
 btnShowProjects.addEventListener('click', function () {
   projectPart2.classList.toggle('hidden');
+
   if (btnShowProjects.textContent === 'Show more') {
     btnShowProjects.textContent = 'Show less';
   } else if (btnShowProjects.textContent === 'Show less') btnShowProjects.textContent = 'Show more';
